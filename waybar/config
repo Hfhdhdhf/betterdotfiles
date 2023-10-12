@@ -1,0 +1,37 @@
+{
+    "position": "top",
+    "layer": "top",
+    "modules-center": ["custom/terminal"],
+    "modules-right": ["clock", "pulseaudio"],
+    "modules-left": ["custom/launcher", "hyprland/workspaces"],
+    "custom/launcher": {
+        "format": "",
+        "on-click": "wofi --show run --style /home/rafa/.config/wofi/nord.css"
+    },
+    "clock": {
+      "format": "{:%H:%M}"
+    },
+    "pulseaudio": {
+      // "scroll-step": 1, // %, can be a float
+      "format": "{icon} {volume}% {format_source}",
+      "format-bluetooth": "{icon} {volume}% {format_source}",
+      "format-bluetooth-muted": " {format_source}",
+      "format-muted": "  {format_source}",
+      "format-source": " {volume}%",
+      "format-source-muted": "",
+      "format-icons": {
+        "headphone": "",
+        "hands-free": "",
+        "headset": "🎧",
+        "phone": "",
+        "portable": "",
+        "car": "",
+        "default": ["", "", ""]
+      },
+      "on-click": "pavucontrol"
+    },
+    "custom/terminal": {
+      "format": "",
+      "on-click": "kitty"
+    }
+}

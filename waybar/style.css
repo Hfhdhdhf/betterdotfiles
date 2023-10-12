@@ -1,0 +1,40 @@
+* {
+    color: white;
+}
+#custom-launcher {
+    padding-left: 10px;
+    border: 5px solid gray;
+    border-radius: 15px;
+    padding-right: 15px;
+}
+#workspaces {
+  padding-left: 10px;
+  margin-left: 15px;
+  border: 5px solid gray;
+  padding-right: 10px;
+  border-radius: 15px;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+#clock {
+  border: 5px solid gray;
+  border-radius: 15px;
+  margin-right: 20px;
+
+}
+
+#pulseaudio {
+  border: 5px solid gray;
+  border-radius: 15px;
+}
+
+#custom-terminal {
+  border: 5px solid gray;
+  border-radius: 15px;
+  margin-right: 20px;
+  padding-right: 18px;
+  padding-left: 10px;
+}
