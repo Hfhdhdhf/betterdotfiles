@@ -1,6 +1,6 @@
 # betterdotfiles
 
-requiments
+requiments:
 hyprland
 waybar
 
